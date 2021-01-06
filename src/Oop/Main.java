@@ -9,26 +9,26 @@ public class Main{
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
     Employee Jim;
-    Jim = new Employee("Jim", "Doe", new Address(1725, "YeetStreet", "Markham", "On", "Canada", "16707"));
+    Jim = new Employee("Jim", "Smith", new Address(1725, "O'ConnorStreet", "Markham", "On", "Canada", "16707"));
     int random = (int)(Math.random() * 50 + 1);
     System.out.println(Jim);
 
     int y1 = random;
 
     Employee Mat;
-    Mat = new Employee("Mat", "Doe", new Address(1768, "WeeeeeeeeeRoad", "Markham", "On", "Canada", "42069"));
+    Mat = new Employee("Mat", "Williams", new Address(1768, "BayStreet", "Markham", "On", "Canada", "42069"));
     int random2 = (int)(Math.random() * 50 + 1);
     System.out.println(Mat);
 
     int y2 = random2; 
     Employee Joe;
-    Joe = new Employee("Joe", "Doe", new Address(1748, "RoadStreet", "Markham", "On", "Canada", "44467"));
+    Joe = new Employee("Joe", "Brown", new Address(1748, "VictoriaStreet", "Markham", "On", "Canada", "44467"));
     int random3 = (int)(Math.random() * 50 + 1);
     System.out.println(Joe);
 
     int y3 = random3;
     Employee Moe;
-    Moe = new Employee("Moe", "Doe", new Address(1788, "MuChROaD", "Markham", "On", "Canada", "17601"));
+    Moe = new Employee("Moe", "Miller", new Address(1788, "9thline", "Markham", "On", "Canada", "17601"));
     int random4 = (int)(Math.random() * 50 + 1);
     int y4 = random4;
     System.out.println(Moe);
@@ -183,7 +183,7 @@ if (b > c) { tmp = b; b = c; c = tmp; }
     }
     break;
     case 6:
-    for(int r = 0;r < 10 ;r++){
+    for(int r = 0;r < 1 ;r++){
     System.out.println("( ͡° ͜ʖ ͡°)");
     System.out.println("( ͡ ͜ʖ ͡  )");
     }
